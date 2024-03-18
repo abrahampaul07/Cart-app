@@ -23,7 +23,7 @@ export default function Navbar() {
         <Link className="navLink" to="/cart">
           Cart
         </Link>
-        <span className="cartCount">Cart Items: 0</span>
+        <span className="cartCount">Cart Items: {items.length}</span>
       </div>
     </div>
   );
