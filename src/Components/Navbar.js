@@ -7,6 +7,7 @@ export default function Navbar() {
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
+        marginBottom: "20px"
       }}
     >
       <span className="logo">Redux Store</span>
